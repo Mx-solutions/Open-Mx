@@ -1,7 +1,6 @@
 {
     "name": "mx-solutions/security-tools",
     "description": "Collection of utilities designed to enhance cybersecurity and protect softwares",
-    "version": "1.0.0",
     "type": "project",
     "license": "MIT",
     "authors": [
