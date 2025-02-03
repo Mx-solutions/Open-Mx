@@ -62,7 +62,7 @@ By adhering to these principles and practices, the goal is to provide a robust, 
 The easiest way to get started with Mx-Solutions Security Tools is to go through composer to install or require the PHP package.  
 
 ```bash
-composer require mx-solutions/security-tools
+composer require mx-solutions/mx-security-tools
 ```
 
 N.B.: Due to security vulnerabilities identified in previous versions of PHP, this package requires PHP version 8.4.3
@@ -71,7 +71,7 @@ N.B.: Due to security vulnerabilities identified in previous versions of PHP, th
 You can also download the Mx-Solutions Security Tools source code directly from the Git clone:  
 
 ```bash
-git clone https://github.com/mx-solutions/security-tools
+git clone https://github.com/mx-solutions/mx-security-tools
 ```
 
 #### Usage
@@ -81,7 +81,7 @@ Generate random password (Quick Use):
 // Require Composer PSR Classes Autoloader
 require_once 'vendor/autoload.php';
 
-use MxSolutions\SecurityTools\Password;
+use MxSolutions\MxSecurityTools\Password;
 
 echo 'Mx-Solution Security Tools Package' . "\n";
 echo '[DEMO MODE]' . "\n\n";

@@ -8,7 +8,7 @@
  * PHP version Dev v8.4.3
  *
  * @category  Password
- * @package   Security\Tools
+ * @package   Mx\Security\Tools
  * @author    Xavier M. <dev.mit-section@mx-solutions.net>
  * @copyright 2017 (c) Mx Solutions
  * @license   MIT https://opensource.org/license/mit
@@ -17,11 +17,11 @@
 
 declare(strict_types=1);
 
-namespace MxSolutions\SecurityTools;
+namespace MxSolutions\MxSecurityTools;
 
 use InvalidArgumentException;
-use MxSolutions\SecurityTools\Abstracts\Generator;
-use MxSolutions\SecurityTools\Interfaces\Generate;
+use MxSolutions\MxSecurityTools\Abstracts\Generator;
+use MxSolutions\MxSecurityTools\Interfaces\Generate;
 
 /**
  * Class: Password
@@ -29,7 +29,7 @@ use MxSolutions\SecurityTools\Interfaces\Generate;
  * Description: Regroup the different password utilities
  *
  * @category  Password
- * @package   Security\Tools
+ * @package   Mx\Security\Tools
  * @author    Xavier M. <dev.mit-section@mx-solutions.net>
  * @copyright 2017 (c) Mx Solutions
  * @license   MIT https://opensource.org/license/mit

@@ -8,7 +8,7 @@
  * PHP version Dev v8.4.3
  *
  * @category  Index
- * @package   Phar\Index
+ * @package   Mx\Phar\Index
  * @author    Xavier M. <dev.mit-section@mx-solutions.net>
  * @copyright 2017 (c) Mx Solutions
  * @license   MIT https://opensource.org/license/mit
@@ -21,6 +21,6 @@ declare(strict_types=1);
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Utilisation des classes
-use MxSolutions\SecurityTools\Password;
+use MxSolutions\MxSecurityTools\Password;
 
 echo Password::generate() . "\n";

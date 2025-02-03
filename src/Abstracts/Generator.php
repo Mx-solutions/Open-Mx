@@ -8,7 +8,7 @@
  * PHP version Dev v8.4.3
  *
  * @category  Generator
- * @package   Security\Tools
+ * @package   Mx\Security\Tools
  * @author    Xavier M. <dev.mit-section@mx-solutions.net>
  * @copyright 2017 (c) Mx Solutions
  * @license   MIT https://opensource.org/license/mit
@@ -17,7 +17,7 @@
 
 declare(strict_types=1);
 
-namespace MxSolutions\SecurityTools\Abstracts;
+namespace MxSolutions\MxSecurityTools\Abstracts;
 
 use InvalidArgumentException;
 
@@ -27,7 +27,7 @@ use InvalidArgumentException;
  * Description: Parent class for random generated password, key, number, ...
  *
  * @category  Generator
- * @package   Security\Tools
+ * @package   Mx\Security\Tools
  * @author    Xavier M. <dev.mit-section@mx-solutions.net>
  * @copyright 2017 (c) Mx Solutions
  * @license   MIT https://opensource.org/license/mit

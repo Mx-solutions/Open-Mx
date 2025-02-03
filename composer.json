@@ -1,5 +1,5 @@
 {
-    "name": "mx-solutions/security-tools",
+    "name": "mx-solutions/mx-security-tools",
     "description": "Collection of utilities designed to enhance cybersecurity and protect softwares",
     "type": "project",
     "license": "MIT",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MxSolutions\\SecurityTools\\": "src/"
+            "MxSolutions\\MxSecurityTools\\": "src/"
         }
     },
     "archive": {

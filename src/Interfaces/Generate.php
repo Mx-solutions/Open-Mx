@@ -8,7 +8,7 @@
  * PHP version Dev v8.4.3
  *
  * @category  Generator
- * @package   Security\Tools
+ * @package   Mx\Security\Tools
  * @author    Xavier M. <dev.mit-section@mx-solutions.net>
  * @copyright 2017 (c) Mx Solutions
  * @license   MIT https://opensource.org/license/mit
@@ -17,7 +17,7 @@
 
 declare(strict_types=1);
 
-namespace MxSolutions\SecurityTools\Interfaces;
+namespace MxSolutions\MxSecurityTools\Interfaces;
 
 /**
  * Interface: Generate
@@ -25,7 +25,7 @@ namespace MxSolutions\SecurityTools\Interfaces;
  * Description: To define the methods that the linked classes will have to implement
  *
  * @category  Generator
- * @package   Security\Tools
+ * @package   Mx\Security\Tools
  * @author    Xavier M. <dev.mit-section@mx-solutions.net>
  * @copyright 2017 (c) Mx Solutions
  * @license   MIT https://opensource.org/license/mit
