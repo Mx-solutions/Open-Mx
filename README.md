@@ -74,6 +74,9 @@ You can also download the Mx-Solutions Security Tools source code directly from 
 git clone https://github.com/mx-solutions/mx-security-tools
 ```
 
+Package also available on the Packagist.org website  
+https://packagist.org/packages/mx-solutions/mx-security-tools
+
 #### Usage
 
 Generate random password (Quick Use):  
