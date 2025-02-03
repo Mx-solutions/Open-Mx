@@ -1,0 +1,11 @@
+# Ignore the vendor folder
+/vendor/
+
+# Ignore the files .lock
+*.lock
+
+# Ignore ths files .log
+*.log
+
+# Ignore system files
+.DS_Store

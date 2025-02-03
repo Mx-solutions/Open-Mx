@@ -1,0 +1,29 @@
+{
+    "name": "mx-solutions/security-tools",
+    "description": "Collection of utilities designed to enhance cybersecurity and protect softwares",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Xavier M.",
+            "email": "dev.mit-section@mx-solutions.net",
+            "role": "Chief Technical Officer"
+        }
+    ],
+    "require": {
+        "php": ">=8.4.3",
+        "composer-plugin-api": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "MxSolutions\\SecurityTools\\": "src/"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/vendor",
+            "*.lock"
+        ]
+    }
+}
